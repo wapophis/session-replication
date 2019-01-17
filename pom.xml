@@ -17,13 +17,21 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>org.glassfish</groupId>
-			<artifactId>javax.faces</artifactId>
-			<version>2.2.13</version>
-		</dependency>
+	<dependency>
+		<groupId>com.sun.faces</groupId>
+		<artifactId>jsf-api</artifactId>
+		<scope>provided</scope>
+	</dependency>
+
+	<dependency>
+		<groupId>com.sun.faces</groupId>
+		<artifactId>jsf-impl</artifactId>
+		<scope>provided</scope>
+	</dependency>
+
 	</dependencies>
-	
+
+
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
